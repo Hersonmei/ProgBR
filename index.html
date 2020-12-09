@@ -1,139 +1,69 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Minha Primeira Página</title>
-        <meta charset="utf-8">
+<html lang="en">
+<head>
+    <title>Aula Float</title>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            font-size: 1.2erm
+        }
 
-        <Style type="text/css">
+        #i5{
+            float: left;
+        
+        }
 
-                body{
-                    font-size: 1.2rem;
-                
-                }
+        p{
+            clear: none;
+        }
 
-               #conteiner{
-                   color: magenta;
-                   background-color: blue;
-                   width: 300px;
-                   height: 100px;
+        div{
+            border: 1px solid black;
+            overflow:auto;
+            padding: 10px;
+            background-color: gray;
+            overflow: auto;
 
-                   overflow:auto;
-               } 
+        }
 
-               #quadrado{
-                   width: 50px;
-                   height: 50px;
-                   background-color: yellowgreen;
-                   
-                   margin-left:auto;
-               }
+        li{
+            float: left;
+            list-style: none;
+            padding: 10px;
+            background-color: #a3b5c7;
+            margin: 5px;
+        }
 
-               #display{
-                   text-align: center;
-               }
+       
+    </style>
+        
+    
+</head>
+<body>
 
-               .bola{
-                   width: 100px;
-                   height: 100px;
-                   display: inline-block;
-                   position: static;
-                }
+    <div>
 
-                .bg-lightblue{
-                    background-color: lightblue;
-                }
+        <img id="i5" src="./pc.jpg">
+        <p>
+            Texto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto 
 
-                .bg-yellow{
-                    background-color: yellow;
-                }
+        </p>   
 
-                .static{
-                    position: static;
-                }
-
-                .relative{
-                    position: relative;
-                   
-                }
-
-                .fixed{
-                    position: fixed;
-                    right: 20px;
-                    bottom: 20px;
-                }
-
-                .ret{
-                    width: 100px;
-                    height: ss;
-
-                }
-                
-
-               
-
-        </Style>
-
-    </head>
-
-    <body>
-
-            <div style="background-color: blue">
-
-                <div> Esta é uma DIV normal</div>
-                <div> E aqui a história<div style="background-color: red; width: 500px">Div de dentro</div> continua </div>
-
-            </div>
-
-            <div>
-
-                <p style="margin: 0"> Este pe um parágrafo Normal</p>
-                <p style="margin: 0"> E aqui a história continua</p>
-            
-            </div>
+    </div>
 
 
-            <p>
-
-                Aqui eu tenho início de um parágrafo <span style="background-color: green; width: 500px; display: inline-block;"> um SPAM no meio</span> e o fim do parágrafo.
-
-                    
-            </p>
-
-            <p style="background-color: blue">
-                Aqui eu tenho o inicio de um parágrafo <div style="background-color: red"> uma div no meio</div> e o fim do parágrafo.
-                
-            </p>
-
-            <p>
-                Aqui eu tenho o início de um parágrafo <img src="pc.jpg" style="width: 400px; display: none"> E o fim do parágrafo.
-
-            </p>
-
-
-            <div id="conteiner">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quam itaque at explicabo dolore repellat quas inventore! Eum perspiciatis labore dolorum! Accusantium non quisquam magni quam, consequuntur in nulla doloremque.
-
-            </div>
-            <br><br>
-
-
-            <div id="quadrado">
-              </div>
-            
-             <div id="display">
-             <img src="/pc.jpg">
-            
-            </div>
-
-            <div class="fixed bola bg-lightblue">
-            </div>
-          
-           <div class="relative bola bg-yellow">
-           
-          
-          </div>
+        <br><br><br><br><br>
+        <ul>
+            <li>Home</li>
+            <li>Cursos</li>
+            <li>Contato</li>
 
 
 
-    </body>
+        </ul>
+
+
+    
+    
+</body>
 </html>
