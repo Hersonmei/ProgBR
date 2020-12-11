@@ -1,69 +1,92 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Aula Float</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body{
-            font-size: 1.2erm
-        }
+        font-size:1.2erm;
+    }
 
-        #i5{
-            float: left;
+    .card{
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 200px;
+        border: 2px solid green;
+        text-align: center;
+
+    }
+
+    .c1{
         
-        }
+        line-height: 200px;
+    }
 
-        p{
-            clear: none;
-        }
-
-        div{
-            border: 1px solid black;
-            overflow:auto;
-            padding: 10px;
-            background-color: gray;
-            overflow: auto;
-
-        }
-
-        li{
-            float: left;
-            list-style: none;
-            padding: 10px;
-            background-color: #a3b5c7;
-            margin: 5px;
-        }
-
-       
-    </style>
+    .c2{
+        color: white;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
         
+        transform: translate(-50%, -50%);
+
     
+    }
+
+    .card2{
+        display: inline-block;
+        clear: left;
+        float: left;
+        border: 2px solid green;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+
+    }
+
+
+
+
+
+    </style>
+    
+    <title>Document</title>
 </head>
 <body>
+    <div class="card">
 
-    <div>
+        <div class="c1">
+            Herson Alexandre
 
-        <img id="i5" src="./pc.jpg">
-        <p>
-            Texto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto qualquerTexto 
+        </div>
+    </div>
+    
+    <div class="card">
 
-        </p>   
+        <div class="c2">
+            Herson Alexandre
+
+        </div>
+
+    </div>
+
+    <div class="card2">
+
+        <div>
+            Herson Alexandre
+        </div>    
 
     </div>
 
 
-        <br><br><br><br><br>
-        <ul>
-            <li>Home</li>
-            <li>Cursos</li>
-            <li>Contato</li>
 
 
 
-        </ul>
-
-
-    
     
 </body>
 </html>
